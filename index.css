@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #000;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+.sidebar a:hover {
+  background-color: white;
+  color: #000;
+}
+.content {
+  margin-left: 200px;
+}
+.content > div {
+  width: 80%;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.content .content-1 {
+  background-color: #dfdfdf;
+  padding: 20px 10rem;
+  max-width: 100%;
+  text-align: center;
+}
+.content .content-2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.content .content-2 .row {
+  flex: 0 0 30%;
+}
+.content .content-2 .item img {
+  float: left;
+  width: 100px;
+}
